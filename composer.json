@@ -1,0 +1,15 @@
+{
+    "name": "antanasga/xmlrpcclient",
+    "description": "Easy way to make XMLRPC client requests",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "AntanasGa\\XmlRpcClient\\": "src/" }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "antanasga/xmlrpcencode": "^0.1.1",
+        "antanasga/xmlrpcdecode": "^0.1.1"
+    }
+}
